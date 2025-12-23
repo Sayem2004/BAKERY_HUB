@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Bakery Hub</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container{
+            background: #f3f0f0;
+            padding: 30px;
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            margin-top: 20%;
+        }
+         .form-container h2{
+            margin-bottom: 20px;
+            color:lightcoral;
+        }
+       form button{
+            padding: 12px;
+            width: 100%;
+            background: #e33f36;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        form input{
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Login</h2>
+
+        <form>
+            <input type="email" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <button type="submit">Login</button>
+        </form>
+
+        <p>Don't have an account? <a href="">Register here</a></p>
+    </div>
+
+</body>
+</html>
