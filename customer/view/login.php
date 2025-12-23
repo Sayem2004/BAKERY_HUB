@@ -13,7 +13,10 @@
         <h2>Login</h2>
 
         <form>
+            <label for="">Email: </label>
             <input type="email" placeholder="Email"><br>
+
+            <label for="">Password: </label>
             <input type="password" placeholder="Password"><br>
             <button type="submit">Login</button>
         </form>

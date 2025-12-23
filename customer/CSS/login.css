@@ -15,17 +15,20 @@
  .form-container {
      background: #f3f0f0;
      padding: 30px;
-     width: 320px;
+     width: 350px;
      border-radius: 10px;
      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-     text-align: center;
+     /* text-align: center; */
      margin: 10%;
  }
 
  .form-container h2 {
      margin-bottom: 20px;
      color: lightcoral;
+     text-align: center;
+     font-size: 50px;
  }
+
 
  form button {
      padding: 12px;
@@ -36,12 +39,20 @@
      font-size: 16px;
      border-radius: 5px;
  }
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5d6321;
+    font-weight: bolder;
+    font-size: 20px;
+    
+ }
 
  form input {
      width: 100%;
      padding: 12px;
      margin-bottom: 15px;
-     border: 1px solid #ccc;
+     border: 2px solid #bfebde;
      border-radius: 5px;
      font-size: 14px;
  }
