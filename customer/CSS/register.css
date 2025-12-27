@@ -11,17 +11,17 @@
      justify-content: center;
      align-items: center;
      min-height: 100vh;
-    margin: 0;
+     
  }
 
  .form-container {
      background: #ebe6e6;
      padding: 30px;
-     width: 350px;
+     width: 550px;
      border-radius: 10px;
      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
      /* text-align: center; */
-     margin: 10%;
+     /* margin: 10%; */
  }
 
  .form-container h2 {
@@ -45,8 +45,8 @@
  }
 form label {
     display: block;
-    margin-bottom: 5px;
-    color: #5d6321;
+    margin-bottom: 0px;
+    color: #445c48;
     font-weight: bolder;
     font-size: 20px;
     
